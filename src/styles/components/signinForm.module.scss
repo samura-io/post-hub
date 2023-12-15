@@ -1,0 +1,26 @@
+@import '../mixins';
+@import '../variables';
+
+.form {
+  max-width: 320px;
+  display: flex;
+  flex-direction: column;
+  margin: 10% auto 0;
+}
+
+.label {
+  font-size: 14px;
+  width: 400;
+  color: $color-text-secondary;
+  margin-bottom: 5px;
+}
+
+.input {
+  @include input;
+  margin-bottom: 10px;
+}
+
+.btn {
+  @include button;
+  margin-top: 20px;
+}

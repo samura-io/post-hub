@@ -1,0 +1,15 @@
+@import '../variables';
+@import '../mixins';
+
+.header {
+  background-color: $color-bg-secondary;
+}
+
+.container {
+  @include container;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  height: 70px;
+}

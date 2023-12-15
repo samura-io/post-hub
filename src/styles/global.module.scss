@@ -1,0 +1,16 @@
+@import './variables';
+@import './fonts';
+@import './mixins';
+
+.global {
+  background-color: $color-bg-primary;
+  color: $color-text-primary;
+  font-family: 'Inter Display', Arial, sans-serif;
+  position: relative;
+  min-height: 100%;
+}
+
+.main {
+  @include container;
+  padding-bottom: 70px;
+}

@@ -1,0 +1,18 @@
+@import '../variables';
+@import '../mixins';
+
+.footer {
+  width: 100%;
+  background-color: $color-bg-secondary;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.container {
+  @include container;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 70px;
+  text-align: right;
+}

@@ -1,0 +1,20 @@
+@import '../mixins';
+@import '../variables';
+
+.pagination {
+  max-width: 300px;
+  display: flex;
+  gap: 5px;
+  margin: 0 auto;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+
+.btn {
+  @include button(40px);
+  background-color: $color-bg-tertiary;
+}
+
+.active {
+  background-color: $color-bg-accent;
+}

@@ -1,0 +1,27 @@
+@import '../mixins';
+
+.greetings {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  height: 100%;
+  padding: 10px;
+  align-items: center;
+  text-align: center;
+  margin: 5% auto 0;
+  gap: 20px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.span {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.btn {
+  @include button(150px);
+}
